@@ -1,0 +1,23 @@
+Hello, sorry for any mixups before, I had sent instructions with the application but for some reason they didn't show up, so here is the same again but this time with these instructions.
+
+Load up Net Frank on a remote PC, the PC has to be either on a TCP/IP Network or online on the internet.  You will also need to know either the IP address or the friendly Network name of the PC, such as WORKSTATION6 or such like.
+
+Once loaded you will not even know that it is there, that is the idea.
+
+Connect to Net Frank on a different PC by using Hyperterminal on port 1002, to make sure that you are connected try a simple command such as "ver" without speech marks, this will report back the version number of Net Frank.  All of the other commands are stated below.
+
+
+COMMAND			EFFECT					EXAMPLE			POSSIBLE PROBLEMS
+
+nfb "<0/1>"		Swaps mouse buttons			nfb "1"			None known
+nfe 			Log off windows network			nfe			Will be replaced with a shutdown command
+nfh			Hide Net Frank				nfh			None known
+nfp "<wavefile>"	Play a wave file			nfp "c:\pop.wav"	File must exist on remote PC
+nfr "<executable>"	Run an executable			nfr "c:\pop.exe"	File must exist on remote PC
+nfm "<message>"		Display custom error message		nfm "CRASHED!!!"	None known
+nfs			Show Net Frank				nfs			None known
+ver			Display version info			ver			None known
+
+**********************************************************************
+TRY USING FRANKINAL TO CONNECT TO NET FRANK - CONTAINED WITHIN THIS ZIP
+**********************************************************************
